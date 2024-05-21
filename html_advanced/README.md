@@ -12,4 +12,7 @@ General:
 6. What is an attribute
 7. What the purpose of each HTML tag
 
+
+Overview of the webpage:
+
 ![image](https://github.com/Darlington6/alu-web-development/assets/155957399/02c3597a-c9df-4b91-88d1-cea26a112789)
