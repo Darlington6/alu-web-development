@@ -11,5 +11,8 @@ General:
 6. What are Box properties in CSS
 7. How does the browser load a webpage
 
-Webpage Overview:
+Overview of the Webpage:
+
+![image](https://github.com/Darlington6/alu-web-development/assets/155957399/9a4d2537-7bd1-492c-9bf8-f619caf89ed1)
+
 
