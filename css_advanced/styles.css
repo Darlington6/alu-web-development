@@ -1,4 +1,3 @@
-
 body {
     padding: 0;
     margin: 0;
@@ -10,18 +9,20 @@ header {
     display: flex;
     flex-direction: row;
     flex: auto;
-    background-image: url("./imgs/background.png");
+    background-image: url("./images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 2% 5% 2% 5%;
     filter: grayscale(100%);
-    position: absolute;
+    position: relative;
     left: -0.025%;
     right: -0.025%;
     top: 0%;
     justify-content: space-between;
     bottom: -26.48%;
     height: 100vh;
+    width: 100%;
 }
 
 header .logo {
@@ -30,11 +31,14 @@ header .logo {
 }
 
 .urls {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
     font-weight: 700;
     font-size: 12px;
 }
 
-.urls>a {
+.urls a {
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
@@ -42,6 +46,7 @@ header .logo {
     padding-right: 53px;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 50px;
 }
 
 .leading {
@@ -376,6 +381,7 @@ main {
 }
 
 .faq {
+    font: "Source Sans Pro";
     display: flex;
     flex-direction: column;
     align-items: center;
